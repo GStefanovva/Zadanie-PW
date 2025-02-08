@@ -15,15 +15,15 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                 </ul>
             </div>
@@ -32,45 +32,72 @@
 
     <div class="container mt-4">
         <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <label>Email</label>
+                    <input type="email" class="form-control mb-2" placeholder="Email">
+                    <label>Password</label>
+                    <input type="password" class="form-control mb-2" placeholder="Password">
+                    <button class="btn btn-success">Login</button>
+                    <button class="btn btn-primary">Register</button>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card p-3 text-center" style="height: 100%;">
+                    <h5>IMAGE</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 text-center">
+            <div class="col-md-3">
+                <div class="card p-3">
+                    <div class="circle"></div>
+                    <h5>Title</h5>
+                    <p>Paragraph with text.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3">
+                    <div class="circle"></div>
+                    <h5>Title</h5>
+                    <p>Paragraph with text.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3">
+                    <div class="circle"></div>
+                    <h5>Title</h5>
+                    <p>Paragraph with text.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3">
+                    <div class="circle"></div>
+                    <h5>Title</h5>
+                    <p>Paragraph with text.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 text-center">
             <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Form Section</h5>
-                        <input type="email" class="form-control mb-2" placeholder="Email">
-                        <input type="password" class="form-control mb-2" placeholder="Password">
-                    </div>
+                <div class="card p-3">
+                    <h5>Heading 5</h5>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Content Section</h5>
-                        <div class="title">Title</div>
-                        <div class="paragraph">Paragraph with text.</div>
-                        <div class="title">Title</div>
-                        <div class="paragraph">Paragraph with text.</div>
-                        <div class="title">Title</div>
-                        <div class="paragraph">Paragraph with text.</div>
-                        <h5>Heading 5</h5>
-                        <h5>Heading 5</h5>
-                        <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="img-fluid mb-2">
-                        <a href="#" class="d-block">Link 1</a>
-                        <a href="#" class="d-block">Link 2</a>
-                        <a href="#" class="d-block">Link 3</a>
-                        <div class="empty-slot"></div>
-                    </div>
+                <div class="card p-3">
+                    <h5>Heading 5</h5>
                 </div>
             </div>
         </div>
 
         <div class="row mt-4">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Posts</h5>
-                        <div id="posts-container"></div>
-                    </div>
-                </div>
+            <div class="col-md-12 d-flex justify-content-around">
+                <div class="card p-3">Paragraph with text</div>
+                <div class="card p-3">Paragraph with text</div>
+                <div class="card p-3">Paragraph with text</div>
             </div>
         </div>
     </div>
